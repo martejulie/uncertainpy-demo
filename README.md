@@ -2,7 +2,7 @@
 
 
 
-## Installer nødvendige pakker med conda
+## Installasjon med conda
 
 Start med å klone repoet og navigér inn i det:
 
@@ -29,7 +29,7 @@ Aktivér miljøet ved å kjøre:
 conda activate uncertainpy-env
 ```
 
-Til slutt må du innstallere noe flere pakker på innsien av miljøet med pip:
+Til slutt må du innstallere noe flere pakker på innsiden av miljøet med pip:
 
 ```bash
 pip install --no-deps -r requirements.txt
