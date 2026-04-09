@@ -1,4 +1,4 @@
-name: uncertainpy_env
+name: uncertainpy-env
 channels:
   - conda-forge
   - defaults
