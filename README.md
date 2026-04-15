@@ -40,9 +40,10 @@ pip install --no-deps -r requirements.txt
 
 ## Kjør eksemplene
 
-Programmene ``analysis_two_uncertain.py`` og ``analysis_two_uncertain.py`` kjører analysene og lager passende figurer. 
+Programmene ``analysis_two_uncertain.py`` og ``analysis_three_uncertain.py`` kjører analysene og lager passende figurer. 
 
 ## Referanser
 
 [1] Simen Tennøe, Geir Halnes, and Gaute T. Einevoll. "Uncertainpy: a python toolbox for uncertainty quantification and sensitivity analysis in computational neuroscience." *Frontiers in neuroinformatics* 12 (2018): 370145.
+
 [2] Steinar Børve. "Therman sensor aquisition range estimation" *Norwegian Defence Research Establishment* FFI report 21/00388 (2021).
