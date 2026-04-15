@@ -1,8 +1,11 @@
 # Usikkerhetskvantifisering og sensitivitetsanalyse med Uncertainpy
 
+Dette repoet inneholder to eksempler på hvordan man kan bruke ``Uncertainpy`` fra Tennø et al. 2018 [1] til å gjøre usikkerhetskvantifisering og
+sensitivitetsanalyse i Python. Begge eksemplene er gjort på PMRTD-modellen fra Børve 2021 [2] som predikerer rekkevidden til termiske sensorer. I eksemplene ser vi på termisk rekkevidde som funksjon av den
+atmosfæriske ekstinksjonskoeffisienten og analyserer modellen når 
+henholdsvis to og tre parametere er usikre. 
 
-
-## Installasjon med conda
+## Installér ``Uncertainpy`` med conda
 
 Start med å klone repoet og navigér inn i det:
 
@@ -35,3 +38,11 @@ Til slutt må du innstallere noe flere pakker på innsiden av miljøet med pip:
 pip install --no-deps -r requirements.txt
 ```
 
+## Kjør eksemplene
+
+Programmene ``analysis_two_uncertain.py`` og ``analysis_two_uncertain.py`` kjører analysene og lager passende figurer. 
+
+## Referanser
+
+[1] Simen Tennøe, Geir Halnes, and Gaute T. Einevoll. "Uncertainpy: a python toolbox for uncertainty quantification and sensitivity analysis in computational neuroscience." *Frontiers in neuroinformatics* 12 (2018): 370145.
+[2] Steinar Børve. "Therman sensor aquisition range estimation" *Norwegian Defence Research Establishment* FFI report 21/00388 (2021).
